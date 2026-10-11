@@ -1,0 +1,8 @@
+.env
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.csv
+# Ignore generated CSV exports explicitly; data/ also excludes snapshots and refresh state.
+data/current/
+data/
